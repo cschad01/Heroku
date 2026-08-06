@@ -1,19 +1,22 @@
 {
   "name": "helloapp",
   "version": "1.0.0",
-  "description": "example node app for heroku ",
+  "description": "example node app for heroku",
   "main": "appTwo.js",
   "scripts": {
-  "start": "node appTwo.js"
-},
+    "start": "node appTwo.js"
+  },
   "repository": {
-  "type": "git",
-  "url": ""
-},
+    "type": "git",
+    "url": ""
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
-  "url": ""
-},
-  "homepage": ""
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "mongodb": "^4.1.0"
+  }
 }
